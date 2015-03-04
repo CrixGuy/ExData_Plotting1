@@ -1,3 +1,5 @@
+#Update for exdata-012
+
 plot1 <- function(){
   #import the file
   power <- read.table("household_power_consumption.txt", sep=";", header=TRUE, na.strings="?")
